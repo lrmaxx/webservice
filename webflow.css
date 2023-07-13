@@ -3886,6 +3886,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .accordion-content {
      position: relative;
      z-index: 1;
+     max-height: 0;
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;

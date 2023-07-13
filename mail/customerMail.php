@@ -20,7 +20,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	$phone = $_POST['phone'];
 	$service_code   = $_POST['service_code'];
 	$service_name = [
-		'001' =>'Contact Us ',
+		'001' =>'Web Designing Service ',
 		'002' =>'Nominee Shareholder Service ',
 		'003' =>'Offshore Company-Formation ',
 		'004' =>'Offshore Bank Account ',
@@ -56,35 +56,48 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 		$custmail->SMTPSecure = "ssl";
 		//Email Settings
 		$custmail->isHTML(true);
-		$custmail->setFrom('testlegal125@gmail.com', 'Autofiling.com');
+		$custmail->setFrom('testlegal125@gmail.com', 'legalraasta.com');
 		$custmail->addAddress($_POST['email'], $_POST['name']);
 		$custmail->Subject = ucwords("Thank you For Showing Interest In. $service_name[$service_code]");
         if(isset($_POST['service_code']) && $service_code == '001') {
 			$Body='<html>
 			<body>
 				<div>Dear '.$_POST['name'].'
-					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in Autofiling, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
-					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is Autofiling’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
+					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in LegalRaasta, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
+					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is LegalRaasta’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
 				
-					<p><strong>About Autofiling:<br></strong>With the goal of providing support for setting up your offshore business anywhere in the world, Autofillings was founded in 2017</p>
-					<p class="mb-4">Our services include banking assistance, accounting & auditing, legal administration, LLC formation, tax registration certificate, and assistance for obtaining visas and work permits, among other things. We also specialize in incorporating offshore companies, opening offshore branches, creating trusts in offshore jurisdictions, opening an offshore entity, and opening an offshore entity.</p>
-					<p>With almost every imaginable company scenario, our team s expertise has managed virtually every type of business and has assisted clients in operating processes smoothly and effectively.</p>
+					<p><strong>About LegalRaasta:<br></strong>LegalRaasta is India leading business services provider. LegalRaasta
+						serves more than 2200+ businesses ever year. We offer 30+ services including <strong>GST, ITR, TDS, Company
+							formation, Service tax, IEC, Trademark, FSSAI, ROC, ISO, &amp; Loans.</strong></p>
+					<p>LegalRaasta also has <strong>tie ups with 40+ Banks &amp; NBFCs</strong> and can help you with
+						<strong>business loans</strong>.</p>
 
-					<p>Warm regards,<br>Team, Autofiling<br><em></em>
-					<p>Contact Us</p>
-						Call Us: <a href="tel:+971585606800" data-mce-href="tel:+971585606800">+971585606800</a>&nbsp;|&nbsp; <a href="tel:+918882038525">+918882038525</a>  <br> <br>
-						Site:<a href="https://test.legalraasta.com/autofile" data-mce-href="https://test.legalraasta.com/autofile">www.Autofile.com</a><br> <br>
-						Head Office :<a href="https://goo.gl/maps/T8roTQnp2RtndkPj6"> N Orange Street, Wilmington <br> Wilmington, Delaware 19801, Delhi </a></p>
-							
-							<a  href="https://twitter.com/RaastaLegal"
-                                aria-label="Twitter"><i class="fab fa-twitter fw-normal"> Twitter</i></a>
-                            <a  href="https://www.facebook.com/LRaasta"
-                                aria-label="facebook"><i class="fab fa-facebook-f fw-normal"> Facebook</i></a>
-                            <a 
-                                href="https://www.linkedin.com/company/legalraasta/mycompany/"
-                                aria-label="linkedn"><i class="fab fa-linkedin-in fw-normal">Linkedin</i></a>
-                            <a href="https://www.instagram.com/legal.raasta/"
-                                aria-label="pinterest"><i class="fab fa-pinterest fw-normal"></i>Instagram</a>
+					<p>Warm regards,<br>Team, LegalRaasta<br><em><a
+								href="https://www.legalraasta.com/private-limited-company-registration/"
+								data-mce-href="https://www.legalraasta.com/private-limited-company-registration/">Company
+								formation</a> | <a href="https://www.legalraasta.com/trademark-registration/"
+								data-mce-href="https://www.legalraasta.com/trademark-registration/">Trademark</a> | <a
+								href="https://www.legalraasta.com/fssai-license/"
+								data-mce-href="https://www.legalraasta.com/fssai-license/">Licenses</a> | <a
+								href="https://www.legalraasta.com/gst-registration/"
+								data-mce-href="https://www.legalraasta.com/gst-registration/">GST</a>, <a
+								href="https://www.legalraasta.com/income-tax-return/"
+								data-mce-href="https://www.legalraasta.com/income-tax-return/">ITR</a> &amp; <a
+								href="https://www.legalraasta.com/tds-return/"
+								data-mce-href="https://www.legalraasta.com/tds-return/">TDS</a> | <a
+								href="https://www.legalraasta.com/loan/"
+								data-mce-href="https://www.legalraasta.com/loan/">Loans</a></em><br>M:&nbsp;<a
+							href="tel:%2B91%20875%20000%208585" data-mce-href="tel:%2B91%20875%20000%208585">+91 875 000
+							8585</a>&nbsp;|&nbsp;<a href="https://www.legalraasta.com/"
+							data-mce-href="https://www.legalraasta.com/">www.legalraasta.com</a><br>Head office: B-300, Saraswati
+						Vihar, Pitampura, Delhi<br><a href="https://www.facebook.com/legalraasta/"
+							data-mce-href="https://www.facebook.com/legalraasta/">Facebook</a>&nbsp;|&nbsp;<a
+							href="https://www.linkedin.com/in/LegalRaasta/"
+							data-mce-href="https://www.linkedin.com/in/LegalRaasta/">Linkedin</a>&nbsp;|&nbsp;<a
+							href="https://twitter.com/LRaasta"
+							data-mce-href="https://twitter.com/LRaasta">Twitter</a>&nbsp;|&nbsp;<a
+							href="https://www.youtube.com/watch?v=NSIg1XT-KM0&amp;t=1s"
+							data-mce-href="https://www.youtube.com/watch?v=NSIg1XT-KM0&amp;t=1s">YouTube</a></p>
 				</div>
 			</body>
 		</html>';
@@ -92,7 +105,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 			$Body='<html>
 			<body>
 				<div>Dear '.$_POST['name'].'
-					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in Autofiling, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
+					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in LegalRaasta, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
 					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is Autofiling’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
 				
 					<p><strong>About Autofiling:<br></strong>With the goal of providing support for setting up your offshore business anywhere in the world, Autofillings was founded in 2017</p>
