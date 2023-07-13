@@ -4711,7 +4711,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .container {
-       max-width: 1200px;
+       max-width: 1245px;
        padding-right: 0px;
        padding-left: 0px;
      }
@@ -4765,7 +4765,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .banner-text {
-       font-size: 55px;
+       font-size: 50px;
      }
    
      .style-guide-section {
@@ -5340,7 +5340,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    @media screen and (min-width: 1440px) {
      .banner-text {
-       font-size: 60px;
+       font-size: 48px;
      }
    
      .home-about-section {
@@ -6818,7 +6818,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .banner-content-flex {
-       text-align: center;
+       text-align: left;
      }
    
      .banner-image.service-single {
