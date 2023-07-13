@@ -1209,7 +1209,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .banner {
-     padding-bottom: 140px;
+     padding-bottom: 80px;
    }
    
    .banner-content-wrap {
@@ -1518,8 +1518,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .service-card-wrap {
-     margin-top: 80px;
-     padding-bottom: 50px;
+     margin-top: 40px;
+     padding-bottom: 30px;
    }
    
    .service-grid {
@@ -1842,7 +1842,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .process-wrap {
-     padding: 120px 20px;
+     padding: 40px 20px;
      border-radius: 10px;
      background-image: linear-gradient(108deg, #e9f7ff, #ffdbd4 54%, #fff3ca 102%);
    }
@@ -4851,7 +4851,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .banner {
-       padding-bottom: 170px;
+       padding-bottom: 70px;
      }
    
      .banner-content-wrap.home-page {
@@ -4859,8 +4859,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .service-section {
-       padding-top: 150px;
-       padding-bottom: 130px;
+       padding-top: 40px;
+       padding-bottom: 30px;
      }
    
      .service-section.service-page {
@@ -4897,11 +4897,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
        width: 750px;
      }
    
-     .service-grid {
+     /* .service-grid {
        -ms-grid-columns: 1fr 1fr 1fr;
        grid-template-columns: 1fr 1fr 1fr;
      }
-   
+    */
      .section-content-title.about-button-content {
        font-size: 25px;
      }
@@ -4950,8 +4950,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .process-wrap {
-       padding-top: 120px;
-       padding-bottom: 140px;
+       padding-top: 40px;
+       padding-bottom: 60px;
      }
    
      .process-wrap.service-single {
@@ -4963,8 +4963,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .testimonial-section {
-       padding-top: 70px;
-       padding-bottom: 90px;
+       padding-top: 40px;
+       padding-bottom: 30px;
      }
    
      .case-study-section {
@@ -5227,7 +5227,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .contact-form-wrap {
-      padding: 38px 25px 32px
+      padding: 14px 25px 32px
      }
    
      .contact-form-field.message-wrap {

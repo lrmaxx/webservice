@@ -14,3 +14,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .w-row:before .w-container:before{
     display: none !important;
 }
+.setheight{
+    height: max-content !important;
+    opacity: 1 !important;
+}
+.getheight{
+    height: 0px;;
+    opacity: 0;
+}

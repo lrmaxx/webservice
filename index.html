@@ -35,24 +35,33 @@
         <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
             role="banner" class="nav-bar w-nav">
             <div class="container">
-                <div class="navbar-wrapper wrap"><a href="/" aria-current="page"
-                        class="navbar-brand w-nav-brand w--current "><img src="img/legaraasta.webp" loading="lazy"
-                            alt="" class="nav-logo" /></a>
-                    <!-- <nav role="navigation" class="nav-menu w-nav-menu">
-                        <div class="nav-link-flex"><a href="/" aria-current="page" class="nav-link w-nav-link w--current">Home</a><a href="/about" class="nav-link w-nav-link">About</a>
-                          <div data-hover="true" data-delay="0" class="nav-link dropdown-nav w-dropdown">
+                <div class="navbar-wrapper "><a href="/" aria-current="page" class="navbar-brand w-nav-brand w--current ">
+                    <img src="img/logomain.png" loading="lazy" alt="" class="nav-logo" /></a>
+                    <nav role="navigation" class="nav-menu w-nav-menu">
+                        <div class="nav-link-flex">
+                            <a href="#service" aria-current="page" class="nav-link w-nav-link ">Service</a>
+                            <a href="#process" class="nav-link w-nav-link">Process</a>
+                            <a href="#testimonial" class="nav-link w-nav-link">Testimonial</a>
+                            <a href="#faq" class="nav-link w-nav-link">FAQ</a>
+                            <a href="#contact" class="nav-link w-nav-link">Contact</a>
+                            <!-- <div data-hover="true" data-delay="0" class="nav-link dropdown-nav w-dropdown">
                                 <div class="nav-dropdown-toggle w-dropdown-toggle">
                                     <div>Pages</div>
                                     <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
                                 </div>
-                                <nav class="nav-dropdown-list w-dropdown-list"><a href="/case-study" class="nav-dropdown-menu-link w-dropdown-link">Case Study</a><a href="/services" class="nav-dropdown-menu-link w-dropdown-link">Services</a><a href="/service-single" class="nav-dropdown-menu-link w-dropdown-link">Service Single</a></nav>
-                            </div><a href="/blog" class="nav-link w-nav-link">Blog</a><a href="/contact-us" class="nav-link w-nav-link">Contact </a></div> 
-                        </nav> -->
-                    <!-- <div class="menu-button w-nav-button">
-                            <div class="w-icon-nav-menu"></div>
-                        </div> -->
-                    <a href="tel:+91-8750008585" class="primary-button nav-bar w-button  "><img src="img/call-icon.svg"
-                            class="me-2" loading="lazy" alt="Footer Link Title Image" />+91-8750008585</a>
+                                <nav class="nav-dropdown-list w-dropdown-list"><a href="/case-study"
+                                        class="nav-dropdown-menu-link w-dropdown-link">Case Study</a><a href="/services"
+                                        class="nav-dropdown-menu-link w-dropdown-link">Services</a><a href="/service-single"
+                                        class="nav-dropdown-menu-link w-dropdown-link">Service Single</a></nav>
+                            </div><a href="/blog" class="nav-link w-nav-link">Blog</a><a href="/contact-us"
+                                class="nav-link w-nav-link">Contact </a> -->
+                        </div>
+                        <a href="tel:+91-8750008585" class="primary-button nav-bar w-button  "><img src="img/call-icon.svg"
+                                class="me-2" loading="lazy" alt="Footer Link Title Image" />+91-8750008585</a>
+                    </nav>
+                    <div class="menu-button w-nav-button">
+                                    <div class="w-icon-nav-menu"></div>
+                                </div>
                 </div>
             </div>
         </div>
@@ -76,19 +85,26 @@
                                 customers with our comprehensive website development expertise.</p>
 
                         </div>
-                        <div   style="z-index: 9999;; margin-left: auto ;margin-right:auto;" class="contact-form-wrap  w-col-10">
+                        <div   style="z-index: 9999;; margin-left: auto ;margin-right:auto;" class="contact-form-wrap  w-col-9">
+                            <h2 style="margin: 10px;text-align: center;" class="section-sub-text purple">Register Now </h2>
                             <div class="contact-form-block w-form">
                                 <form action="custom_form.php"
                                 onsubmit="emailPassage()" method="POST" class="contact-form">
                                     <div class="contact-form-flex">
-                                        <div class="contact-form-label-wrap"><label for="name" class="contact-form-label">Full name *</label><input type="text" class="contact-form-field w-input" maxlength="256" required name="name" data-name="Name" placeholder="Your Name" id="name" /></div>
+                                        <div class="contact-form-label-wrap">
+                                            
+                                            <input type="text" class="contact-form-field w-input" maxlength="256" required name="name" data-name="Name" placeholder="Your Name" id="name" /></div>
                                         
                                     </div>
                                     <div class="contact-form-flex">
-                                        <div class="contact-form-label-wrap"><label for="Email-2" class="contact-form-label">Your email *</label><input type="email" class="contact-form-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="example@yourmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required id="Email-2" /></div>
+                                        <div class="contact-form-label-wrap">
+                                           
+                                            <input type="email" class="contact-form-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="example@yourmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required id="Email-2" /></div>
                                     </div>
                                     <div class="contact-form-flex">
-                                        <div class="contact-form-label-wrap"><label for="phone" class="contact-form-label">Phone *</label><input placeholder="Enter your Number" pattern="[6-9]{1}[0-9]{9}" title="Please
+                                        <div class="contact-form-label-wrap">
+                                            
+                                            <input placeholder="Enter your Number" pattern="[6-9]{1}[0-9]{9}" title="Please
                                             Enter 10 Digit Number" required maxlength="10" id="phone" name="phone" data-name="field" class="contact-form-field w-input"></input></div>
                                     </div>
                                     <div class="button-flex contact-form"><input type="submit" value="Send Message" data-wait="Please wait..." class="primary-button w-button" /></div>
@@ -134,7 +150,7 @@
             <div class="banne-circle"></div>
         </div>
     </div>
-    <div class="service-section wf-section">
+    <div class="service-section wf-section" id="service">
         <div class="container w-container">
             <div class="service-title-flex">
                 <div  class="section-title-wrap flex">
@@ -239,7 +255,7 @@
         </div>
     </div>
 
-    <div class="process-section wf-section">
+    <div class="process-section wf-section" id="process">
         <div class="container w-container">
             <div class="process-wrap">
                 <div data-w-id="4f7e2cf0-a0c4-9193-9129-c03459960f72" style="opacity:0"
@@ -251,7 +267,7 @@
                             <p class="sub-title-content"><span class="sub-title-slash purple">//</span> 02 . Proccess
                             </p>
                         </div>
-                        <h2 class="section-title">A simple,sequence,yet powerful and  efficient process</h2>
+                        <h2 class="section-title" style="text-transform: capitalize;">A simple,yet powerful and  efficient process</h2>
                     </div>
                 </div>
                 <div>
@@ -286,9 +302,9 @@
                         </div>
                         <div id="w-node-_8822bbfa-02b5-6c38-49fa-29a825042508-ed60830c" class="process-flex">
                             <div id="w-node-_8822bbfa-02b5-6c38-49fa-29a825042509-ed60830c" class="process-image-grid">
-                                <img src="img/webdesignbnr.png" loading="lazy" width="489"
+                                <img src="img/banner-image.png" loading="lazy" width="489"
                                     sizes="(max-width: 479px) 100vw, (max-width: 767px) 85vw, (max-width: 991px) 31vw, (max-width: 1279px) 32vw, 406px"
-                                    srcset="img/webdesignbnr.png 500w, img/webdesignbnr.png 765w"
+                                    srcset="img/banner-image.png 500w, img/banner-image.png 765w"
                                     alt="About Process Timeline image" />
                             </div>
                             <div id="w-node-_8822bbfa-02b5-6c38-49fa-29a82504250b-ed60830c"
@@ -316,7 +332,7 @@
         </div>
     </div>
     
-    <div class="testimonial-section wf-section">
+    <div class="testimonial-section wf-section" id="testimonial">
         <div class="container w-container">
             <div data-w-id="5dc4cab0-a0fc-ea0c-e252-20bcf5dbda19" style="opacity:0" class="section-title-wrap flex">
                 <div class="title-image-wrap pink"><img src="img/message.svg" loading="lazy" alt="Title Image" /></div>
@@ -325,7 +341,7 @@
                         <p class="sub-title-content"><span class="sub-title-slash">//</span> 04 . What Our Client Says
                         </p>
                     </div>
-                    <h2 class="section-title">We work with customers across all industries</h2>
+                    <h2 class="section-title" >We work with Customers Across All Industries</h2>
                 </div>
             </div>
             <div data-delay="4000" data-animation="slide" class="home-testimonial-slider w-slider" data-autoplay="false"
@@ -493,10 +509,10 @@
             </div>
         </div>
     </div>
-    <div class="faq-section wf-section">
+    <div class="faq-section wf-section" id="faq">
         <div class="container w-container">
-            <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                class="section-title-wrap center-align">
+            <div  style="opacity:1 " class="section-title-wrap center-align">
+               
                 <div class="title-width full-width">
                     <div class="section-sub-title center-align">
                         <p class="sub-title-content"><span class="sub-title-slash">//</span> 02 . FAQ</p>
@@ -505,106 +521,158 @@
                 </div>
             </div>
             <div class="contact-accordion-wrap">
-                <div 
-                    style="border-color: rgb(220, 220, 220); opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                    class="accordion-item">
-                    <div class="accordion-trigger">
-                        <h3 class="accordion-item-title">How long does it take to design and launch a website?</h3>
-                        <div style="background-color: rgb(41, 41, 48); transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                            class="accordion-arrow-wrap"><img src="img/arrow-right.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion">
+                <div data-w-id="0a8d1d2f-05f4-55e5-c4ac-d963728e572f" style="border-color:rgb(220,220,220)" class="accordion-item"  >
+                    <div class="accordion-trigger"  >
+                        <h3 class="accordion-item-title " >Can I cancel or change my order?</h3>
+                        <div style="background-color:rgb(41,41,48);"                  
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion"/></div>
                     </div>
-                    </div>
-                    <div style="height: 0px; transform: translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d;"
+                    <div id="code" style="height: 0; opacity: 0;"
                         class="accordion-content">
-                        <p class="accordion-paragraph">The timeframe for designing and launching a website depends on
-                            various factors, such as the complexity of the project, the number of pages, and the
-                            availability of content and resources. Generally, it takes a few weeks or a few months. We
-                            work closely with our clients to establish clear timelines and milestones to ensure a smooth
-                            and timely website delivery.</p>
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
                     </div>
-                    <div style="opacity: 0;" class="accordion-bg"></div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
                 </div>
-                
-                <div 
-                    style="border-color: rgb(220, 220, 220); opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                    class="accordion-item">
+
+
+                <!-- ========================= -->
+                <div data-w-id="27aa2b84-f997-47fe-c718-ae1a677f7316" style="border-color:rgb(220,220,220)" class="accordion-item" >
                     <div class="accordion-trigger">
-                        <h3 class="accordion-item-title">Can I update and manage my website content on my own?</h3>
-                        <div style="background-color: rgb(41, 41, 48); transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                            class="accordion-arrow-wrap"><img src="img/arrow-right.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion"></div>
+                        <h3 class="accordion-item-title">What’s your support line to call to ask questions?</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion" /></div>
                     </div>
-                    <div style="height: 0px; transform: translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d;"
+                    <div id="code" class="getheight" 
                         class="accordion-content">
-                        <p class="accordion-paragraph">Yes, absolutely! We offer simple content management systems (CMS)
-                            so you can quickly maintain and update the material on your website. With a CMS, you can add
-                            or edit text, images, videos, blog posts, and more without any technical expertise. We also
-                            provide training and support to ensure you feel confident in managing your website
-                            effectively.</p>
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
                     </div>
-                    <div style="opacity: 0;" class="accordion-bg"></div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
                 </div>
-                <div
-                    style="border-color: rgb(220, 220, 220); opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                    class="accordion-item">
+                <div data-w-id="fb461f22-e11f-0b31-7291-64d1b4ff74af" style="border-color:rgb(220,220,220)" class="accordion-item" >
                     <div class="accordion-trigger">
-                        <h3 class="accordion-item-title">Will my website be mobile-friendly and responsive?</h3>
-                        <div style="background-color: rgb(41, 41, 48); transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                            class="accordion-arrow-wrap"><img src="img/arrow-right.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion"></div>
+                        <h3 class="accordion-item-title">I have a promotional or discount code?</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion" /></div>
                     </div>
-                    <div style="height: 0px; transform: translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d;"
+                    <div style="height:0px;opacity:0"
                         class="accordion-content">
-                        <p class="accordion-paragraph">Yes, every website we cand develop with responsive of mobile user
-                            interface. We recognize the value of a consistent user experience across all platforms. Our
-                            websites are optimized to automatically adapt to various screen sizes, ensuring that your
-                            website looks and functions flawlessly on desktops, laptops, tablets, and smartphones.</p>
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
                     </div>
-                    <div style="opacity: 0;" class="accordion-bg"></div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
                 </div>
-                <div
-                    style="border-color: rgb(220, 220, 220); opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                    class="accordion-item">
+                <div data-w-id="02421a2a-ca52-5b3b-7ddc-bf4b4f209e82" style="border-color:rgb(220,220,220)" class="accordion-item" >
                     <div class="accordion-trigger">
-                        <h3 class="accordion-item-title">Can you help with search engine optimization (SEO) to improve
-                            my website's visibility?</h3>
-                        <div style="background-color: rgb(41, 41, 48); transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                            class="accordion-arrow-wrap"><img src="img/arrow-right.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion"></div>
+                        <h3 class="accordion-item-title" >Can I integrate my store with Facebook?</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion" /></div>
                     </div>
-                    <div style="height: 0px; transform: translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d;"
+                    <div style="height:0px;opacity:0"
                         class="accordion-content">
-                        <p class="accordion-paragraph">Yes, we offer search engine optimization services to improve your
-                            website's visibility and rankings in search engine results. Our team incorporates SEO best
-                            practices during the website development process, including optimizing page titles, meta
-                            descriptions, heading tags, and site structure. We also provide guidance on content
-                            optimization and keyword strategies to help increase organic traffic to your website.</p>
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
                     </div>
-                    <div style="opacity: 0;" class="accordion-bg"></div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
                 </div>
-        
-                <div 
-                    style="border-color: rgb(220, 220, 220); opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                    class="accordion-item">
+                <div data-w-id="2ed3e1a4-1650-e0b6-fd46-a1fd70ebc74b" style="border-color:rgb(220,220,220)" class="accordion-item" >
                     <div class="accordion-trigger">
-                        <h3 class="accordion-item-title">What kind of ongoing support and maintenance do you provide
-                            after the website is launched?</h3>
-                        <div style="background-color: rgb(41, 41, 48); transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                            class="accordion-arrow-wrap"><img src="img/arrow-right.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion"></div>
+                        <h3 class="accordion-item-title">Where is my order? Quisque molestie</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion" /></div>
                     </div>
-                    <div style="height: 0px; transform: translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 0; transform-style: preserve-3d;"
+                    <div style="height:0px;opacity:0" 
                         class="accordion-content">
-                        <p class="accordion-paragraph">We provide ongoing support and maintenance packages to ensure
-                            your website remains secure, up-to-date, and fully functional. Our packages can include
-                            regular backups, software updates, security monitoring, performance optimization, and
-                            technical support. We are committed to being your long-term partner and ensuring your
-                            website continues to operate at its best.</p>
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
                     </div>
-                    <div style="opacity: 0;" class="accordion-bg"></div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="footer wf-section">
+    <div class="faq-section wf-section">
+        <div class="container w-container">
+            <div  style="opacity:1 " class="section-title-wrap center-align">
+                <div class="title-image-wrap pink"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/6343b71bebf97b45ca28be9f_title-03.svg" loading="lazy" alt="Title Image" /></div>
+                <div class="title-width full-width">
+                    <div class="section-sub-title center-align">
+                        <p class="sub-title-content"><span class="sub-title-slash">//</span> 02 . FAQ</p>
+                    </div>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+            </div>
+            <div class="contact-accordion-wrap">
+                <div data-w-id="0a8d1d2f-05f4-55e5-c4ac-d963728e572f" style="border-color:rgb(220,220,220)" class="accordion-item">
+                    <div class="accordion-trigger">
+                        <h3 class="accordion-item-title">Can I cancel or change my order?</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion"/></div>
+                    </div>
+                    <div style="height:0px;"
+                        class="accordion-content">
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
+                    </div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
+                </div>
+
+
+                <!-- ========================= -->
+                <div data-w-id="27aa2b84-f997-47fe-c718-ae1a677f7316" style="border-color:rgb(220,220,220)" class="accordion-item">
+                    <div class="accordion-trigger">
+                        <h3 class="accordion-item-title">What’s your support line to call to ask questions?</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion" /></div>
+                    </div>
+                    <div style="height:0px;opacity:0"
+                        class="accordion-content">
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
+                    </div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
+                </div>
+                <div data-w-id="fb461f22-e11f-0b31-7291-64d1b4ff74af" style="border-color:rgb(220,220,220)" class="accordion-item">
+                    <div class="accordion-trigger">
+                        <h3 class="accordion-item-title">I have a promotional or discount code?</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion
+" /></div>
+                    </div>
+                    <div style="height:0px;opacity:0"
+                        class="accordion-content">
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
+                    </div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
+                </div>
+                <div data-w-id="02421a2a-ca52-5b3b-7ddc-bf4b4f209e82" style="border-color:rgb(220,220,220)" class="accordion-item">
+                    <div class="accordion-trigger">
+                        <h3 class="accordion-item-title">Can I integrate my store with Facebook?</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion
+" /></div>
+                    </div>
+                    <div style="height:0px;opacity:0"
+                        class="accordion-content">
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
+                    </div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
+                </div>
+                <div data-w-id="2ed3e1a4-1650-e0b6-fd46-a1fd70ebc74b" style="border-color:rgb(220,220,220)" class="accordion-item">
+                    <div class="accordion-trigger">
+                        <h3 class="accordion-item-title">Where is my order? Quisque molestie</h3>
+                        <div style="background-color:rgb(41,41,48);"
+                            class="accordion-arrow-wrap"><img src="https://assets.website-files.com/633fc9cf3a4f100f9060830b/634cfbbfa83bb653b950103b_Accordion%20Arrow.svg" loading="lazy" alt="Arrow Icon For Contact Page Accordion
+" /></div>
+                    </div>
+                    <div style="height:0px;opacity:0"
+                        class="accordion-content">
+                        <p class="accordion-paragraph">Lorem Ipsum has been the industry&#x27;s standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.</p>
+                    </div>
+                    <!-- <div style="opacity:0" class="accordion-bg"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="footer wf-section" id="contact">
         <div class="container w-container">
             <div class="footer-wrap">
                 <div class="w-layout-grid footer-grid">
