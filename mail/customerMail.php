@@ -63,7 +63,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 			$Body='<html>
 			<body>
 				<div>Dear '.$_POST['name'].'
-					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in LegalRaasta, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
+					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in LegalRaasta, and we are committed to delivering the highest quality service in setting up your business in India. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
 					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is LegalRaasta’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
 				
 					<p><strong>About LegalRaasta:<br></strong>LegalRaasta is India leading business services provider. LegalRaasta
@@ -105,7 +105,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 			$Body='<html>
 			<body>
 				<div>Dear '.$_POST['name'].'
-					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in LegalRaasta, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
+					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in LegalRaasta, and we are committed to delivering the highest quality service in setting up your business in India. Additionally, we also provide business setup services in India <br>
 					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is Autofiling’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
 				
 					<p><strong>About Autofiling:<br></strong>With the goal of providing support for setting up your offshore business anywhere in the world, Autofillings was founded in 2017</p>
