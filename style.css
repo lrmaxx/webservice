@@ -14,11 +14,14 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .w-row:before .w-container:before{
     display: none !important;
 }
-.setheight{
-    height: max-content !important;
-    opacity: 1 !important;
+.list{
+    font-weight: bolder; font-size: larger; list-style: none; color:black;
 }
-.getheight{
-    height: 0px;;
-    opacity: 0;
+.list>li::before{
+    content: "⮞ ";
+    position: relative;
+    margin-right: 4px;
+    color: #151414;
+    border-radius: 40px;
+    z-index: 1;
 }

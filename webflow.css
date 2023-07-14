@@ -1466,7 +1466,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .title-width.home-service {
-     width: 586px;
+     width: 780px;
    }
    
    .title-width.case-study-title {
@@ -4891,7 +4891,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .title-width.home-service {
-       width: 750px;
+       width: 1024px;
      }
    
      .title-width.case-study-title {
@@ -6548,6 +6548,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
        display: none;
      }
    }
+   @media screen and (max-width: 578px){
+    .banner-content-wrap.home-page{
+      padding-top: 30px;
+    }
+   }
    
    @media screen and (max-width: 767px) {
      h1 {
@@ -7690,6 +7695,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .banner-text {
        font-size: 38px;
+       text-align: center;
+     }
+     .banner-content-wrap.home-page{
+        padding-top: 20px;
      }
    
      .banner-text.sub-text {
