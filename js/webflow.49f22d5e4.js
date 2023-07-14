@@ -9384,6 +9384,21 @@
         }, o
     })
 }]);
+
+    // Back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.back-to-top').fadeIn('slow');
+            $('.left-call').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+            $('.left-call').fadeOut('slow');
+        }
+    });
+    $('.back-to-top','.left-call').click(function () {
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
+    });
 /**
  * ----------------------------------------------------------------------
  * Webflow: Interactions 2.0: Init
