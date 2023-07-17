@@ -284,26 +284,3 @@ input.w-button {
 .left-call>i{
     margin-right: 20px;
 }
-/* Vendor animation */
-.custom_slide-track {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    height:5rem;
-    border: 2px  #000 solid ;
-    border-width: 0px 2px 0px 2px;
-    margin:auto;
-    gap: 1rem;
-    overflow: hidden;
-  }
-  .custom_slide img{
-    width: 230px;
-    height: auto;
-    max-width:max-content;
-    animation-delay: 0.1s;
-    animation: scroll 10s linear infinite  ;
-}
-@keyframes scroll {
-    0% {transform: translateX(0);}
-    100% {transform: translateX(500%)}
-  }
