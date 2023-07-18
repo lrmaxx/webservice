@@ -15,7 +15,31 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+.timer{
+    top: 0px;
+    left: 20px;
+}
+#demo{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 5px;
+    left: 40px;
+    padding: 10px 13px;
+    border-radius: 9px;  
+}
+.timer>span{
+    color:white;
+    position:absolute;
+    left :10px;
+    font-size: 30px;
+    top:20px;
+}
+.timer>i::before{
+    
 }
 
 body {
@@ -306,4 +330,18 @@ input.w-button {
 @keyframes scroll {
     0% {transform: translateX(0);}
     100% {transform: translateX(500%)}
+  }
+
+  .btn{
+    background-color: #000;
+    color:#fff3ca;
+    width: max-content;
+    margin: auto;
+    padding: 1.2%;
+    border-radius: 20px 20px 20px 20px;
+
+  }
+  .btn:hover{
+    background: #ff0;
+    color: #000;
   }

@@ -970,6 +970,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      grid-row-gap: 13px;
    }
    
+
    .hero-form-input {
      min-height: 69px;
      margin-right: 9px;
@@ -2308,7 +2309,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .pricing-section {
-     padding-top: 100px;
+     padding-top: 50px;
      padding-bottom: 95px;
    }
    
@@ -2367,7 +2368,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .pricing-title {
      margin-top: 0px;
      font-family: Nunito, sans-serif;
-     font-size: 38px;
+     font-size: 30px;
      font-weight: 900;
    }
    
@@ -5020,7 +5021,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .pricing-section {
-       padding-top: 120px;
+       padding-top: 50px;
        padding-bottom: 95px;
      }
    
@@ -5030,7 +5031,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .pricing-title {
-       font-size: 45px;
+       font-size: 32px;
      }
    
      .benefit-grid {
@@ -5348,7 +5349,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .pricing-title {
-       font-size: 50px;
+       font-size: 32px;
      }
    
      .about-section {
@@ -7086,7 +7087,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .pricing-section {
-       padding-top: 80px;
+       padding-top: 30px;
        padding-bottom: 80px;
      }
    
@@ -8154,7 +8155,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .pricing-title {
-       font-size: 30px;
+       font-size: 50px;
      }
    
      .pricing-subscript {
