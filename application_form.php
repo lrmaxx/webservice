@@ -2,7 +2,7 @@
 
 //  Payment Setup
 $var = json_encode($_POST, true);
-$sercd = $_POST['servicecode'];
+// $sercd = $_POST['servicecode'];
 $getp = $_POST['phone'];
 $phoneno = ltrim($getp, "0");
 
@@ -63,8 +63,8 @@ if (empty($posted['hash']) && sizeof($posted) > 0) {
 		|| empty($posted['amount'])
 		|| empty($posted['firstname'])
 		|| empty($posted['email'])
-		|| empty($posted['phone'])
 		|| empty($posted['productinfo'])
+		|| empty($posted['phone'])
 		|| empty($posted['surl'])
 		|| empty($posted['furl'])
 		|| empty($posted['service_provider'])
